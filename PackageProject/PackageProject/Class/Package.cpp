@@ -7,3 +7,12 @@
 //
 
 #include "Package.hpp"
+
+Package::Package() : Person() {
+    
+}
+Package::~Package(){}
+
+void Package::inPut() {
+    
+}

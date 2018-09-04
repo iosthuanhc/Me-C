@@ -10,5 +10,20 @@
 #define TwodayPackage_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include "Package.cpp"
 
+using namespace std;
+
+class TwodayPackage: public Package {
+    
+    double flatFee;
+    
+public:
+    TwodayPackage();
+    ~TwodayPackage();
+    void inPut();
+    void outPut();
+    double calculateCost();
+};
 #endif /* TwodayPackage_hpp */

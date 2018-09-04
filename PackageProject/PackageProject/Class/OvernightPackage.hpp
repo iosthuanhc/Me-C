@@ -10,5 +10,20 @@
 #define OvernightPackage_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include "Package.cpp"
 
+using namespace std;
+
+class OvernightPackage: public Package {
+    
+    double additionalCost;
+    
+public:
+    OvernightPackage();
+    ~OvernightPackage();
+    void inPut();
+    void outPut();
+    double calculateCost();
+};
 #endif /* OvernightPackage_hpp */

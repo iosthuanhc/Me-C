@@ -10,5 +10,22 @@
 #define Package_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include "Person.hpp"
 
+using namespace std;
+
+class Package: public Person {
+    Person sender;
+    Person recipient;
+    double weight;
+    double cost;
+    
+public:
+    Package();
+    ~Package();
+    void inPut();
+    void outPut();
+    double calculateCost();
+};
 #endif /* Package_hpp */
