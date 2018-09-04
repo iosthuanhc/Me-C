@@ -7,9 +7,33 @@
 //
 
 #include <iostream>
-
+#include <iomanip>
+#include "Time.hpp"
 using namespace std;
 
+struct Time {
+    int hour;
+    int munite;
+    int second;
+};
+/*
+void showTime(const Time t) {
+    cout << setw(2)<<setfill('0')<<t.hour<< ":"
+         << setw(2)<<setfill('0')<<t.munite<< ":"
+         << setw(2)<<setfill('0')<<t.second;
+}
+*/
+
+int main () {
+    TimeObj t;
+    t.setH(23);
+    t.setM(7);
+    t.setS(33);
+    t.showTime();
+    cout<<endl;
+}
+
+/*
 struct List {
     int value;
     List * next;
