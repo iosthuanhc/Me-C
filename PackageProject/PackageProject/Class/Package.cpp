@@ -8,11 +8,23 @@
 
 #include "Package.hpp"
 
-Package::Package() : Person() {
+Package::Package() {
     
 }
 Package::~Package(){}
 
 void Package::inPut() {
     
+    cout<<" input weight: "; cin>> weight;
+    cout<<" input cost: "; cin>> cost;
+}
+
+void Package:: outPut() {
+    
+}
+
+double Package::calculateCost() {
+    double value = 0.0;
+    
+    return value;
 }

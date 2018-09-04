@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "Package.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    Person p;
+    p.inPut();
     return 0;
 }

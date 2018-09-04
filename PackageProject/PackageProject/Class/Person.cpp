@@ -13,6 +13,7 @@ using namespace std;
 Person::Person() {
     name = address = city = state = zipCode = "";
 }
+
 Person::~Person(){}
 
 void Person:: inPut() {

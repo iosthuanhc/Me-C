@@ -7,3 +7,24 @@
 //
 
 #include "OvernightPackage.hpp"
+
+OvernightPackage::OvernightPackage() {
+    
+}
+
+
+OvernightPackage::~OvernightPackage() {}
+
+void OvernightPackage::inPut() {
+    
+}
+
+void OvernightPackage:: outPut() {
+    
+}
+
+double OvernightPackage::calculateCost() {
+    double value = 0.0;
+    
+    return value;
+}

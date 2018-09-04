@@ -7,3 +7,22 @@
 //
 
 #include "TwodayPackage.hpp"
+
+
+TwodayPackage::TwodayPackage() {
+    
+}
+TwodayPackage::~TwodayPackage(){}
+
+
+void TwodayPackage::inPut() {
+    
+}
+
+void TwodayPackage:: outPut() {
+    
+}
+
+double TwodayPackage::calculateCost() {
+    return Package:: calculateCost() + flatFee;
+}
